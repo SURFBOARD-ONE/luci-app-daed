@@ -5,7 +5,7 @@ PKG_VERSION:=1.2
 PKG_RELEASE:=1
 
 LUCI_TITLE:=LuCI Support for DAED
-LUCI_DEPENDS:=+daed +curl +libcron +zoneinfo-asia +luci-compat
+LUCI_DEPENDS:=+curl +libcron +zoneinfo-asia +luci-compat
 LUCI_PKGARCH:=all
 
 define Package/$(PKG_NAME)/conffiles
